@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <title>weather-app</title>
+    <link rel="stylesheet" href="style.css">
+    
+
+
+
+</head>
+<body>
+    <div class="card background-gradient-basic">
+        <div class="search">
+            <input type="text"  id="input-box"placeholder="enter your city name" spellcheck="false">
+            <button  onclick="extractCity()" ><img src="images/search.png" alt="search"></button>
+        </div>
+        <div class="weather">
+            <img src="" alt="" class="weather-icon">
+            <h3 class="weather"></h3>
+            <h1 class="temp"></h1>
+            <h2 class="city"></h2>
+            <div class="details">
+                <div class="col">
+                    <img src="" alt="" class="wind-img">
+                    <div>
+                        <p class="humidity"></p>
+                        <p id="humi"></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <img src="" alt="" class="humi-img">
+                    <div>
+                        <p class="wind"></p>
+                        <p id="windspeed"></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+    
+    <script src="app.js"></script>
+    
+</body>
+</html>
