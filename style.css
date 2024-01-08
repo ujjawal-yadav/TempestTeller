@@ -81,6 +81,10 @@ body{
     font-weight: 200;
     margin-top: -27px;
 }
+.weather h3{
+    margin-bottom: 19px;
+    margin-top: -17px;
+}
 .details
 {
     display: flex;
@@ -99,6 +103,57 @@ body{
 {
     margin-top: -28px;
 } */
+.background-gradient-sunny
+{
+    background: hsla(17, 95%, 50%, 1);
+
+background: linear-gradient(90deg, hsla(17, 95%, 50%, 1) 0%, hsla(42, 94%, 57%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(17, 95%, 50%, 1) 0%, hsla(42, 94%, 57%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(17, 95%, 50%, 1) 0%, hsla(42, 94%, 57%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#F74C06", endColorstr="#F9BC2C", GradientType=1 );
+}
+
+.background-gradient-rain
+{
+    background: hsla(221, 38%, 66%, 1);
+
+    background: linear-gradient(90deg, hsla(221, 38%, 66%, 1) 0%, hsla(216, 34%, 33%, 1) 90%);
+    
+    background: -moz-linear-gradient(90deg, hsla(221, 38%, 66%, 1) 0%, hsla(216, 34%, 33%, 1) 90%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(221, 38%, 66%, 1) 0%, hsla(216, 34%, 33%, 1) 90%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#869BC9", endColorstr="#384F71", GradientType=1 );
+}
+
+.background-gradient-snow
+{
+    background: hsla(206, 64%, 67%, 1);
+
+background: linear-gradient(90deg, hsla(206, 64%, 67%, 1) 0%, hsla(228, 21%, 91%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(206, 64%, 67%, 1) 0%, hsla(228, 21%, 91%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(206, 64%, 67%, 1) 0%, hsla(228, 21%, 91%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#75B2E1", endColorstr="#E2E4EC", GradientType=1 );
+}
+
+.background-gradient-cloud
+{
+    background: hsla(221, 59%, 75%, 1);
+
+background: linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(216, 40%, 58%, 1) 100%);
+
+background: -moz-linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(216, 40%, 58%, 1) 100%);
+
+background: -webkit-linear-gradient(90deg, hsla(221, 59%, 75%, 1) 0%, hsla(216, 40%, 58%, 1) 100%);
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#9BB2E5", endColorstr="#698CBF", GradientType=1 );
+}
 
 .col{
     display: flex;
